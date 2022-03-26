@@ -1,0 +1,31 @@
+.body_css{
+    background-color: #DcDcDc;
+}
+.div_pai{
+    background-color: #ffffff;
+    width: 50vw;
+    height: 500px;
+    border: dotted black 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div_filho1{
+    background-color: rgb(255, 255, 93);
+    width: 30%;
+    height: 50px;
+}
+.div_filho2{
+    background-color: rgb(255, 124, 47);
+    width: 30%;
+    height: 100px;
+}
+.div_filho3{
+    background-color: rgb(64, 255, 46);
+    color: #ffffff;
+    font-size: 30px;
+    padding: 50px;
+    margin: 50px 0px 0px 50px;
+    width: 30%;
+    height: 100px;
+}

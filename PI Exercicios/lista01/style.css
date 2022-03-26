@@ -1,0 +1,27 @@
+.div_pai{
+    background-color: #fa9536; 
+    width: 500px; 
+    height: 500px;
+}
+.div_filho{
+    background-color: #5cff71; 
+    width: 250px; 
+    height: 250px;
+}
+p{
+    color: #ffffff; 
+    background-color: #ff0000; 
+    font-size: 25px; 
+    font-family: monospace; 
+    font-weight: 1000;
+}
+.div_pai2{
+    width: 50%;
+    height: 50vh; 
+    background-color: rgb(106, 195, 255);
+}
+.div_filho2{
+    width: 75vw;
+    height: 50%;
+    background-color: rgb(255, 0, 0);
+}

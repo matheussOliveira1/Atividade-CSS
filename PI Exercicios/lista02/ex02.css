@@ -1,0 +1,18 @@
+.div_pai{
+ background-color: rgb(200, 162, 200);
+ width: 100%;
+ height: 250px;
+ display: flex;
+ justify-content: center;
+}
+.div_filho1{
+    background-color: #ffcbdb;
+    width: 250px;
+    height: 100%;
+    border: outset red 20px;
+}
+.div_filho2{
+    background-color: #03bb85;
+    width: 30%;
+    height: 88%;
+}

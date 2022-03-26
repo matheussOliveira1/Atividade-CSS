@@ -1,0 +1,15 @@
+.classe_div{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border: solid rgb(0, 255, 0) 2px;
+    margin: 100px;
+}
+
+#div_css{
+    background-color: black;
+    width: 50%;
+    height: 50vh;
+    border: dashed red 10px;
+    padding: 100px 100px 0px 0px;
+}

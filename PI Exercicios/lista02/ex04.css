@@ -1,0 +1,102 @@
+.div_pai{
+    background-color: #915c5c;
+    width: 1100px;
+    height: 300px;
+    border: solid black 15px;
+    display: flex;
+    justify-content: center;
+}
+.div_filho{
+    background-color: #ffffff;
+    width: 80%;
+    height: 200px;
+    margin: 35px 0px 35px 0px;
+    border: solid 15px #040455;
+        
+    
+}
+#paragrafo{
+    color: #3237ff;
+    font-size: 25px;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+#espaco1{
+    background-color: #FFFFFF;
+    width: 1000px;
+    height: 80px;
+}
+
+#cores1{
+    background-color: rgb(0,0,255);
+    width: 1000px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    
+}
+#cores2{
+    background-color: #800080;
+    width: 600px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    
+}
+#cores3{
+    background-color: #008000;
+    width: 900px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    
+}
+#cores4{
+    background-color: #FFFF00;
+    width: 800px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    
+}
+
+#espaco2{
+    background-color: #FFFFFF;
+    width: 1000px;
+    height: 70px;
+}
+
+#nav1{
+    background-color: #FF0000;
+    width: 45%;
+    height: 30px;
+    display: flex;
+    
+}
+
+#nav2{
+    background-color: #007C80;
+    width: 20%;
+    height: 30px;
+    display: flex;
+    
+}
+
+#nav3{
+    background-color: #01FF00;
+    width: 35%;
+    height: 30px;
+    display: flex;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
