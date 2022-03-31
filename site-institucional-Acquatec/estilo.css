@@ -88,7 +88,7 @@ input{
     background-color: #E6005A;
     width: 120px;
     align-self: center;
-    margin: 3px;
+    
 }
 
 .banner .card{
@@ -110,8 +110,10 @@ a{
 }
 
 .botoes{
+    width: 250px;
+    height: 40px;
     display: flex;
-    margin: 10px;
+    justify-content: space-between;
 }
 
 h4{
