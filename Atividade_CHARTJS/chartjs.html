@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementando o ChartJS</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body style="display: flex;">
+
+    <div>
+        <canvas id="myChart" style="position: relative; height: 40vh; width: 40vw"></canvas>
+    </div>
+    <div>
+        <canvas id="myChart2" style="position: relative; height: 40vh; width: 40vw"></canvas>
+    </div>
+
+</body>
+
+<script>
+    const labels = [
+        '12:00',
+        '13:00',
+        '14:00',
+        '15:00',
+        '16:00',
+        '17:00',
+    ]
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Temperatura',
+            backgroundColor: 'rgb(255,99,132)',
+            borderColor: 'rgb(255,99,132)',
+            data: [30, 10+19, 5+23, 2+23, 20+2, 30-7],
+
+        },
+        {
+            label: 'Umidade',
+            backgroundColor: 'rgb(163,213,246)',
+            borderColor: 'rgb(163,213,246)',
+            data: [80, 10+72, 5+75, 2+83, 20+60, 30+53],
+
+        }   
+    ]
+    }
+    const config = {
+        type: 'line',
+        data: data,
+        options: {}
+    }
+
+    const labels2 = [
+        'Janeiro',
+        'Fevereiro',
+        'Março',
+        'Abril',
+        'Maio',
+        'Junho',
+    ]
+    const data2 = {
+        labels: labels2,
+        datasets: [{
+            label: 'Temperatura Média',
+            backgroundColor: 'rgb(255,99,132)',
+            borderColor: 'rgb(255,99,132)',
+            data: [22, 10+14, 5+22, 2+21, 20-0, 30-12],
+
+        },
+        {
+            label: 'Umidade Média',
+            backgroundColor: 'rgb(163,213,246)',
+            borderColor: 'rgb(163,213,246)',
+            data: [90, 10+79, 5+88, 2+85, 20+68, 30+52],
+
+        }   
+    ]
+    }
+
+    const config2 = {
+        type: 'bar',
+        data: data2,
+        options: {}
+    }
+</script>
+
+<script>
+    const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    )
+    const myChart2 = new Chart(
+        document.getElementById('myChart2'),
+        config2
+    )
+</script>
+
+</html>
